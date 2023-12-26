@@ -77,3 +77,4 @@ These libraries are widely used in various domains of data science, machine lear
 ![o](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/d42555bd-a34d-407a-bdab-da3c03209967)
 
 
+## Pytorch YOLOV5
