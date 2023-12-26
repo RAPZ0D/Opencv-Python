@@ -4,6 +4,7 @@ Using the OpenCV Library using Python
 - [Installation Instructions](#installation-instructions)
 - [Libraries Used](#libraries-used)
 - [Visual](#visual)
+- [Pytorch YOLOV5](#pytorch-yolov5)
 
 This project utilizes OpenCV, NumPy, and Matplotlib for image processing and computer vision tasks in Python.
 
