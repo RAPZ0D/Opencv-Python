@@ -73,5 +73,6 @@ These libraries are widely used in various domains of data science, machine lear
 
 ![opencv](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/8789c454-57c2-4cfd-9f5d-b0c3db35d286)
 
-![VNtaG](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/73bad59c-315d-4e25-ac36-dbd8a9c7416b)
+![o](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/d42555bd-a34d-407a-bdab-da3c03209967)
+
 
