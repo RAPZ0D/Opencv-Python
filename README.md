@@ -32,6 +32,9 @@ myenv\Scripts\activate
 
 Verify Installation
 To verify the installation of these libraries, you can check their versions in your Python environment:
+
 python -c "import cv2; print('OpenCV version:', cv2.__version__)"
+
 python -c "import numpy; print('NumPy version:', numpy.__version__)"
+
 python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
