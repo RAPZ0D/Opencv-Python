@@ -2,6 +2,7 @@
 Using the OpenCV Library using Python 
 # OpenCV using Python
 -[Installation Instructions](#installation-instructions)
+-[Libraries Used](#libraries-used)
 
 This project utilizes OpenCV, NumPy, and Matplotlib for image processing and computer vision tasks in Python.
 
@@ -38,3 +39,5 @@ python -c "import cv2; print('OpenCV version:', cv2.__version__)"
 python -c "import numpy; print('NumPy version:', numpy.__version__)"
 
 python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
+
+## Libraries Used 
