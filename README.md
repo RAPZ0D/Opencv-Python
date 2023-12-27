@@ -12,7 +12,7 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
 
 ### Installing OpenCV, NumPy, and Matplotlib with pip
 
- **OpenCV**: Install OpenCV using pip, preferably within a virtual environment:
+1. **OpenCV**: Install OpenCV using pip, preferably within a virtual environment:
    ```bash
    pip install opencv-python
 
@@ -110,11 +110,16 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
 
 ## Installation
 
-To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:
+1. **To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:** 
 
-   ```python
+   ```bash 
    !pip install -U ultralytics / pip install -U ultralytics
 
+
+## Using YOLOv5 for Object Detection
+
+To perform object detection using YOLOv5, you can utilize the following code:
+   ```python
    import torch
 
    # Load the YOLOv5 model
