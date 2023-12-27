@@ -106,24 +106,21 @@ Features of YOLOv5
 [Pytorch Link](https://pytorch.org/hub/ultralytics_yolov5/)
 
 You can start by downloading this on your command line or terminal
+ 
+  pip install -U ultralytics
 
 Once you have downloaded it, you can run a sample code provided by PYTORCH, the code is mentioned below
 
 import torch
 
-# Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-# Images
 imgs = ['https://ultralytics.com/images/zidane.jpg']  # batch of images
-
-# Inference
 results = model(imgs)
 
-# Results
 results.print()
 results.save()  # or .show()
 
 results.xyxy[0] 
 results.pandas().xyxy[0]
-  pip install -U ultralytics
+
