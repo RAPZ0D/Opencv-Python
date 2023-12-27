@@ -12,7 +12,7 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
 
 ### Installing OpenCV, NumPy, and Matplotlib with pip
 
-1. **OpenCV**: Install OpenCV using pip, preferably within a virtual environment:
+ **OpenCV**: Install OpenCV using pip, preferably within a virtual environment:
    ```bash
    pip install opencv-python
 
@@ -112,32 +112,28 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
 
 To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:
 
-```bash
-pip install -U ultralytics
+   ```bash
+   pip install -U ultralytics
 
+   ```python
+   import torch
 
-## Using YOLOv5 for Object Detection
+   # Load the YOLOv5 model
+   model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-To perform object detection using YOLOv5, you can utilize the following code:
+   # Define a batch of images (e.g., image URLs)
+   imgs = ['https://ultralytics.com/images/zidane.jpg']
 
-```python
-import torch
+   # Obtain object detection results
+   results = model(imgs)
 
-# Load the YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
+   # Display results in console
+   results.print()
 
-# Define a batch of images (e.g., image URLs)
-imgs = ['https://ultralytics.com/images/zidane.jpg']
+   # Save or display the results
+   results.save()  # Save results to a directory
+   # or
+   results.show()  # Display results
 
-# Obtain object detection results
-results = model(imgs)
-
-# Display results in console
-results.print()
-
-# Save or display the results
-results.save()  # Save results to a directory
-# or
-results.show()  # Display results
 
 
