@@ -20,30 +20,18 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
 
    pip install matplotlib
 
- Installation within a Virtual Environment. Create a Virtual Environment (Optional but recommended):
+### Installation within a Virtual Environment. Create a Virtual Environment (Optional but recommended):
+### Create a virtual environment using venv or virtualenv
 
-Create a virtual environment using venv or virtualenv
-
-# Using venv (Python 3.x)
+1. **Using venv (Python 3.x)**
 ``bash
   python3 -m venv myenv
 
-# Activate the virtual environment (Linux or MacOS)
-  ```bash
+2.  **Activate the virtual environment (Linux or MacOS/Windows)**
+  (MacOS / Linux)
   source myenv/bin/activate
-
-# Activate the virtual environment (Windows)
-  ``bash
+  #Windows
   myenv\Scripts\activate
-
-Verify Installation
-To verify the installation of these libraries, you can check their versions in your Python environment:
-  ``bash
-  python -c "import cv2; print('OpenCV version:', cv2.__version__)"
-
-  python -c "import numpy; print('NumPy version:', numpy.__version__)"
-
-  python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
 
 ## Libraries Used 
 1. OpenCV
