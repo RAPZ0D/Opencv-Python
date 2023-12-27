@@ -86,3 +86,13 @@ YOLOv5 is an object detection model series known for its efficiency in real-time
 - **Grid-Based Approach**: Divides the image into a grid and predicts objects within each grid cell.
 - **Anchor Boxes**: Utilizes predefined anchor boxes for accurate bounding box predictions.
 - **Efficiency**: Offers real-time inference speeds for object detection tasks.
+
+**YOLOv5 Overview**
+
+Features of YOLOv5
+
+- **PyTorch Implementation**: Built using the PyTorch framework for flexibility and ease of use.
+- **Improved Architecture**: Enhanced architecture for better accuracy and speed.
+- **Variants**: Different model sizes (s, m, l, x) catering to varying computational requirements.
+- **Pretrained Models**: Provides pretrained models on COCO dataset for general object detection.
+- **Transfer Learning**: Allows fine-tuning on custom datasets for specific object detection tasks.
