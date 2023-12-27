@@ -96,3 +96,34 @@ Features of YOLOv5
 - **Variants**: Different model sizes (s, m, l, x) catering to varying computational requirements.
 - **Pretrained Models**: Provides pretrained models on COCO dataset for general object detection.
 - **Transfer Learning**: Allows fine-tuning on custom datasets for specific object detection tasks.
+
+### Object Detection with YOLOv5
+
+- **Usage**: Detects multiple objects within an image, providing bounding boxes and class probabilities.
+- **Applications**: Used in various fields including autonomous vehicles, surveillance, and robotics.
+
+### Getting Started 
+[Pytorch Link](https://pytorch.org/hub/ultralytics_yolov5/)
+
+You can start by downloading this on your command line or terminal
+
+Once you have downloaded it, you can run a sample code provided by PYTORCH, the code is mentioned below
+
+import torch
+
+# Model
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
+
+# Images
+imgs = ['https://ultralytics.com/images/zidane.jpg']  # batch of images
+
+# Inference
+results = model(imgs)
+
+# Results
+results.print()
+results.save()  # or .show()
+
+results.xyxy[0] 
+results.pandas().xyxy[0]
+  pip install -U ultralytics
