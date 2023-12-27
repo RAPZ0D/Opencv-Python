@@ -25,22 +25,25 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
 Create a virtual environment using venv or virtualenv
 
 # Using venv (Python 3.x)
-python3 -m venv myenv
+``bash
+  python3 -m venv myenv
 
 # Activate the virtual environment (Linux or MacOS)
-source myenv/bin/activate
+  ```bash
+  source myenv/bin/activate
 
 # Activate the virtual environment (Windows)
-myenv\Scripts\activate
+  ``bash
+  myenv\Scripts\activate
 
 Verify Installation
 To verify the installation of these libraries, you can check their versions in your Python environment:
+  ``bash
+  python -c "import cv2; print('OpenCV version:', cv2.__version__)"
 
-python -c "import cv2; print('OpenCV version:', cv2.__version__)"
+  python -c "import numpy; print('NumPy version:', numpy.__version__)"
 
-python -c "import numpy; print('NumPy version:', numpy.__version__)"
-
-python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
+  python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
 
 ## Libraries Used 
 1. OpenCV
