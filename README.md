@@ -113,6 +113,7 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
 pip install -U ultralytics
 
 
+
 To perform object detection using YOLOv5, you can utilize the following code:
 
 ```python
