@@ -139,4 +139,9 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
    # or
    results.show()  # Display results
 
-### VISUALS/ OUTPUTS
+## VISUALS/ OUTPUTS
+
+![u](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/c6cdda09-6dbb-43eb-84cc-7db0be86f3d9)
+
+
+![j](https://github.com/RAPZ0D/Opencv-Python/assets/100001521/bda5ca7a-7bc3-43c4-853a-c1d71f0cebaa)
