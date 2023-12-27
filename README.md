@@ -112,10 +112,9 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
 
 To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:
 
-   ```bash
-   pip install -U ultralytics
-
    ```python
+   !pip install -U ultralytics / pip install -U ultralytics
+
    import torch
 
    # Load the YOLOv5 model
