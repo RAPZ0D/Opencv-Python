@@ -113,12 +113,12 @@ To use the YOLOv5 model and related utilities, you need to install the Ultralyti
 1. **To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:** 
 
    ```bash 
-   !pip install -U ultralytics / pip install -U ultralytics
+    pip install -U ultralytics
 
 
 ## Using YOLOv5 for Object Detection
 
-To perform object detection using YOLOv5, you can utilize the following code:
+1. **To perform object detection using YOLOv5, you can utilize the following code:**
    ```python
    import torch
 
@@ -139,5 +139,4 @@ To perform object detection using YOLOv5, you can utilize the following code:
    # or
    results.show()  # Display results
 
-
-
+### VISUALS/ OUTPUTS
