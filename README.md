@@ -105,18 +105,13 @@ Features of YOLOv5
 ### Getting Started 
 [Pytorch Link](https://pytorch.org/hub/ultralytics_yolov5/)
 
-## Installing Ultralytics Library
+## Installation
 
 To use the YOLOv5 model and related utilities, you need to install the Ultralytics library. Run the following command in your terminal or command prompt:
 
 ```bash
 pip install -U ultralytics
 
-
-
-To perform object detection using YOLOv5, you can utilize the following code:
-
-```python
 import torch
 
 # Load the YOLOv5 model
@@ -135,3 +130,4 @@ results.print()
 results.save()  # Save results to a directory
 # or
 results.show()  # Display results
+
