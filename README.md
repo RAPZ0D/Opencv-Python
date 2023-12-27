@@ -78,3 +78,11 @@ These libraries are widely used in various domains of data science, machine lear
 
 
 ## Pytorch YOLOV5
+YOLOv5 is an object detection model series known for its efficiency in real-time object detection tasks. It's built on the You Only Look Once (YOLO) architecture and implemented using the PyTorch deep learning framework.
+
+ **Key Features**
+
+- **Unified Model**: Predicts bounding boxes and class probabilities in a single pass through the network.
+- **Grid-Based Approach**: Divides the image into a grid and predicts objects within each grid cell.
+- **Anchor Boxes**: Utilizes predefined anchor boxes for accurate bounding box predictions.
+- **Efficiency**: Offers real-time inference speeds for object detection tasks.
