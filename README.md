@@ -28,9 +28,13 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
   python3 -m venv myenv
 
 2.  **Activate the virtual environment (Linux or MacOS/Windows)**
+
   (MacOS / Linux)
+  
   source myenv/bin/activate
+  
   #Windows
+  
   myenv\Scripts\activate
 
 ## Libraries Used 
