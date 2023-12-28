@@ -33,7 +33,7 @@ This project utilizes OpenCV, NumPy, and Matplotlib for image processing and com
   
   source myenv/bin/activate
   
-  #Windows
+  (Windows)
   
   myenv\Scripts\activate
 
