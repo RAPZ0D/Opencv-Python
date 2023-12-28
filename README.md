@@ -1,6 +1,6 @@
 # Opencv-Python
 **This Project focuses on the OpenCV library, by using python programming language I have used various functions where you can try it on your own, the code and the output is all displayed in the .ipynb file**
-### OpenCV using Python
+## OpenCV using Python
 - [Installation Instructions](#installation-instructions)
 - [Libraries Used](#libraries-used)
 - [Visual](#visual)
