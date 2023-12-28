@@ -191,7 +191,7 @@ faces = cascade_classifier.detectMultiScale(gray_img, scaleFactor=1.1, minNeighb
 for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-# Display the image with detected faces using matplotlib
+# Display the image with detected faces using matplotlib 
 plt.figure(figsize=(8, 6))
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.title('Face Detection using Cascade Classifier')
@@ -278,7 +278,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# Read the image
+# Reading the image
 img = cv2.imread('eiffel_tower.jpg')
 
 # Define the transformation matrix (for example, rotation)
